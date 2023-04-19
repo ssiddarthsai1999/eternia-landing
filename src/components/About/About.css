@@ -1,0 +1,46 @@
+.servicetextColor{
+    background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+font-style: normal;
+font-weight: 500;
+font-size: 58px;
+line-height: 68px;
+text-align: center;
+letter-spacing: 0.02em;
+}
+.aboutPara{
+      font-family: "Cabinet Grotesk",sans-serif;
+      font-size: 24px;
+color: #F4F4F4BF;
+      line-height: 26px;
+}
+
+.servicesHeading{
+color: #E9DAFF;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 58px;
+line-height: 58px;
+
+letter-spacing: 0.02em;
+}
+
+@media (max-width: 640px) {
+.servicetextColor{
+      font-size: 48px;
+}
+.aboutPara{
+            font-size: 18px;
+            text-align: left;
+}
+.servicesHeading{
+            font-size: 40px;
+}
+  }
+
+

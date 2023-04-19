@@ -1,0 +1,65 @@
+.Homeheading{
+font-family: 'Inter';
+
+}.homeContainer{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+        padding-bottom: 80px;
+        
+
+ 
+   
+}
+.homepara{
+    font-family: "Cabinet Grotesk", sans-serif;
+}
+.headingTextColor{
+    background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 98px;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+
+.linearbutton{
+border-style: solid;
+border-width: 1.5px;
+border-image-source: linear-gradient(270deg, #FE40FC 0%, #E9BBC0 38.54%, #8733F0 69.27%, #BE47BF 100%);
+border-image-slice: 1;
+background: transparent;
+box-sizing: border-box;
+border-radius: 20px;
+
+}
+
+
+
+
+@media (max-width: 700px) {
+.homeContainer {
+margin-bottom: 100px;
+}
+}
+
+
+@media (max-width: 640px) {
+.headingTextColor{
+font-size: 56px;
+margin-bottom: 30px;
+}
+.homepara{
+    font-size: 20px;
+margin-bottom: 20px;
+}
+
+  }
